@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --black:#000000 ;
+    --red: #ed1c24;
+    --green: #28a745;
+    --grey: #0f0f0f;
+  }
+.bg-black{
+    background-color: var(--black)
+}
+.bg-red{
+    background-color:var(--red);
+}
+.bg-green{
+    background-color: var(--green);
+}
+#bg-green{
+    background-color: var(--green);
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+.color-white{
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
+.f-start{
+    justify-content: flex-start;
+}
+.f-end{
+    justify-content: flex-end;
+}
+.j-center{
+    justify-content: center;
+}
+.s-between{
+    justify-content: space-between;
+}
+.s-around{
+    justify-content: space-around;
+}
+.s-evenly{
+    justify-content: space-evenly;
+}
+.s-baseline{
+    justify-content: first baseline;
+}
+.items-start{
+    align-items: flex-start;
+}
+.items-end{
+    align-items: flex-end;
+}
+.items-center{
+    align-items: center;
+}
+.pa1{
+    padding: 10px;
+}
+.pa2{
+    padding: 15px
+}
+.pa3{
+    padding: 20px;
+}
+.m1{
+    margin: 10px;
+}
+.m2{
+    margin: 20px;
+}
+.m-rl{
+    margin: 0 20px;
+}
+.warp{
+    flex-wrap: wrap;
+}
+.mt-1{
+    margin-top: 20px;
+}
+.mt-2{
+    margin-top: 40px;
+}
+.mt-3{
+    margin-top: 50px;
+}
+.margin-top{
+    margin-top: 70px;
+}
+.pt-1{
+    padding-top: 50px;
+}
+.b-non{
+    border: none;
+}
