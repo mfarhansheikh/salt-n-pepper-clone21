@@ -28,13 +28,13 @@ body{
     border: 1px solid white   ;
     background-color: transparent;
     border-radius: 30px;
-    padding:20px;
+    padding:15px 30px;
     margin: 10px 10px;
 }
 #b2{
     border: 1px solid white;
     border-radius: 50px;
-    padding: 20px 30px;
+    padding: 15px 30px;
     margin: 10px 10px;
     text-align: center;
 
@@ -270,51 +270,3 @@ ul li a{
     color: #b7b7b7;
     margin-top: 20px;
 }
-
-/* footer {
-    background: #1a1a1a;
-    color: white;
-    padding: 20px 0;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.about, .links, .contact, .social {
-    width: 23%;
-}
-
-.about p {
-    font-size: 14px;
-}
-
-a {
-    color: #ff4c4c;
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 8px;
-}
-
-.social img {
-    width: 30px;
-    margin-right: 10px;
-}
-
-.copyright {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-} */
