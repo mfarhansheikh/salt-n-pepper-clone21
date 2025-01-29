@@ -99,3 +99,9 @@
 .b-non{
     border: none;
 }
+.text-center{
+    text-align: center;
+}
+.margin-b1{
+    margin-bottom: 30px;
+}

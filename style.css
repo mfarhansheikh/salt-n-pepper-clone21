@@ -14,6 +14,10 @@
     font-family: butler regular;
     src: url(fonts/Butler_Stencil/Butler_Regular_Stencil.otf);
 }
+@font-face {
+    font-family: inter regualr;
+    src: url(fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
 body{
     font-family: regular;
     color: white;
@@ -269,4 +273,35 @@ ul li a{
     text-decoration: none;
     color: #b7b7b7;
     margin-top: 20px;
+}
+.about-section1{
+    font-family: apercu;
+    font-weight: normal;
+    font-size: 18px;
+    color: #b7b7b7;
+    padding: 0px 80px;
+}
+.intro-heading{
+    font-family: butler regular;
+    font-size: 52px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+.franchise-list-head{
+    font-family: inter regular ;
+    font-size: 30px;
+    font-weight: normal;
+}
+.salt-list{
+    font-family: futurak;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+.about-para{
+    font-family: apercu;
+    color: #b7b7b7;
+    font-size: 15px;
+    font-weight: normal;
 }
