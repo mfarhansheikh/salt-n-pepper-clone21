@@ -41,6 +41,7 @@ body{
     padding: 15px 30px;
     margin: 10px 10px;
     text-align: center;
+    border: none;
 
 }
 #icon{
@@ -242,17 +243,17 @@ body{
     border-radius: 40px;
 }
 .icon{
-    font-size: 25px;
+    font-size: 15px;
     background-color: #ff0000;
     color: white;
     border: 1px solid white;
     border-radius: 100px;
-    padding: 15px 20px;
+    padding: 7px 10px;
     
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .fpara{
@@ -272,6 +273,10 @@ ul li a{
 .trems{
     text-decoration: none;
     color: #b7b7b7;
+    margin-top: 20px;
+}
+.font{
+    font-size: 14px;
     margin-top: 20px;
 }
 .about-section1{
@@ -304,4 +309,24 @@ ul li a{
     color: #b7b7b7;
     font-size: 15px;
     font-weight: normal;
+}
+.img-card{
+    background-color:#0f0f0f;
+    box-shadow: transparent 10px 15px;
+    border-radius: 15px;
+    padding: 12px 15px;
+}
+.express-strong{
+    font-family: inter regular;
+}
+.express-para{
+    font-family: apercu regular;
+    font-weight: normal;
+    color: #b7b7b7;
+}
+.GUJRANWALA{
+    font-family: inter regular;
+    font-size: small;
+    color: #212529;
+
 }
