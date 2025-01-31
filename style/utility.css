@@ -29,12 +29,14 @@
 }
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 .f-start{
     justify-content: flex-start;
 }
 .f-end{
     justify-content: flex-end;
+
 }
 .j-center{
     justify-content: center;
@@ -104,4 +106,8 @@
 }
 .margin-b1{
     margin-bottom: 30px;
+}
+.text-decor-none{
+    text-decoration: none;
+    color: white;
 }

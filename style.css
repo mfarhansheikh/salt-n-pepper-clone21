@@ -330,3 +330,19 @@ ul li a{
     color: #212529;
 
 }
+.book-child{
+    border: 1px solid white;
+
+}
+.book-child img:hover{
+    transform: scale(1.05);
+
+}
+.get-franchise{
+    font-family: butler regular;
+    font-size: 45px;
+    font-weight: normal;
+}
+.form-container{
+    display: flex;
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style/utility.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body bg-black">
+<body class="bg-black">
     <header>
         <nav class="">
             <div id="nav" class="d-flex s-between  m2 warp ">
@@ -18,42 +18,49 @@
                     <a class="anchor" href="index.html">Home</a>
                     <a class="anchor" href="about us.html"> About Us</a>
                     <a class="anchor" href="Publication.html"> Publication</a>
-                    <button id="b1" class="anchor"> <a class="text-decor-none" href="Get a Franchise.html">Get a Franchise</a></button>
+                    <button id="b1" class="anchor"><a class="text-decor-none" href="Get a Franchise.html">Get a Franchise</a></button>
                     <BUTton id="b2" class="anchor bg-red">Order Online <span id="icon"><i
                                 class="fa-solid fa-arrow-right"></i></span> <BUTton>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="book-section d-flex s-evenly">
-        <div class="book-child">
-            <img width="600" src="image/book1.webp" alt="">
-        </div>
-        <div class="book-child">
-            <img width="600" src="image/book2.webp" alt="">
-        </div>
-    </div>
-    <div class="Publication-section mt-2 d-flex s-around text-center">
-        <div class="Publication-section-child">
-            <h2>Available at following branches</h2> <br> <br>
-            <p><strong class="express-strong">Salt’n Pepper Restaurant – Mall Road</strong></p> <br>
-            <p class="express-para">26, Mall Road, Lahore, Pakistan</p> <br> <br>
-            <p class="express-para">04237244009</p> <br> <br>
-            <p><strong class="express-strong">Salt’n Pepper Restaurant – Liberty Market</strong></p> <br>
-            <p class="express-para">48 – Commercial Zone, Liberty Market, Lahore, Pakistan</p> <br> <br>
-            <p class="express-para">04235752893</p> <br> <br>
-            <p><strong class="express-strong">Salt’n Pepper Village – Lahore</strong></p> <br>
-            <p class="express-para">103-B II, MM Alam Road, Lahore, Pakistan</p> <br> <br>
-            <p class="express-para">04235750735</p> <br> <br>
-            <p><strong class="express-strong">Salt’ n Pepper – Islamabad</strong></p> <br>
-            <p class="express-para">Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p> <br><br>
-            <p class="express-para">0512604904-6</p> <br><br>
-            <p><strong class="express-strong">Salt’n Pepper – Faisalabad</strong></p> <br>
-            <p class="express-para">14-Kohinoor City, Faisalabad</p> <br><br>
-            <p class="express-para">0418711404</p>
+    <h1 class="get-franchise text-center" >Get a Franchise</h1>
 
-
+    <div  class="form-container mt-2">
+   <form >
+        <div class="form-group">
+            <label for="Name">Name</label> 
+            <input type="text" placeholder="" required> 
+            <label for="Email">Email</label>  
+            <input type="text" placeholder="" required>
         </div>
+        <div class="form-group">
+            <label for="Phone Number">Phone Number</label>
+            <input type="text" placeholder="" required>
+            <label for="Mobile Number">Mobile Number</label>
+            <input type="text" placeholder="" required>
+            
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" placeholder="" required>
+            <label for="Province">Province</label>
+            <input type="text " placeholder="" required>
+        </div>
+        <div class="form-group">
+            <label for="Country">Country</label>
+            <input type="text" placeholder="" required>
+            <label for="Brands">Brands</label>
+            <select name="Brand" id="brand" >
+                <option value="disabled selected">Which brand are you interested in</option>
+                <option value="Salt'n Pepper Resturant">Salt'n Pepper Resturant</option>
+                <option value="Salt'n Pepper Village">Salt'n Pepper Village</option>
+                <option value="Salt'n Pepper Express">Salt'n Pepper Express</option>
+            </select>
+        </div>
+        <button>Submit</button>
+     </form>
 
     </div>
     <footer class="bg-grey mt-2">
@@ -103,7 +110,6 @@
             <div  class="copyright-child1 font"><p><i class="fa-solid fa-copyright"></i> 2025 Snp Main</p></div>
             <div  class="copyright-child2 font">Powered by Muhammad Farhan</div>
         </div>
-
 
     </footer>
 
